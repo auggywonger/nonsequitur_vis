@@ -16,4 +16,4 @@ pip install -r requirements.txt
 python nonsequitur.py -i example_trace
 ```
 
-If, for some reason, you are unable to run the code, we have also provided an example of a NonSequitur visualization: NonSequitur_Vis_Example.html.
+The code above generates the NonSequitur visualization as a html file: NonSequitur.html. View the visualization by opening the html file in a web browser. If, for some reason, you are unable to run the code, we have also provided an example of a NonSequitur visualization: NonSequitur_Vis_Example.html.
