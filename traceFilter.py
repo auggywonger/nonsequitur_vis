@@ -9,7 +9,7 @@ import re
 from traceProcessing import process_line_from_trace, get_file_size
 from tqdm import tqdm
 
-THRESHOLD = 1
+THRESHOLD = 0
 
 
 def get_small_functions(tracefile_path):
