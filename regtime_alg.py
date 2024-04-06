@@ -10,9 +10,9 @@ from config import (
 )
 from tqdm import tqdm
 
-CallDurationThresh = 0.01
+CallDurationThresh = 0.005
 CallGapThresh = 0.001
-TotalTimeFractionThresh = 0.13
+TotalTimeFractionThresh = 0.02
 
 class CallStackTreeNode:
     def __init__(self, function=None, callstack_depth=None, total_duration=0):
