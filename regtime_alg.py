@@ -328,7 +328,7 @@ def regtime(input_trace):
         if (
             not started_regtime_expr
             and trace_event["event_type"] != EXIT_EVENTTYPE
-            and trace_event["duration"] < 0.01 * thread_duration
+            and trace_event["duration"] < CallDurationThresh * thread_duration
         ):
             regtime_vis_encoding = RegTimeVisualEncoding()
             regtime_vis_encoding.add_event(trace_event)
